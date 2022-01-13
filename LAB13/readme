@@ -1,1 +1,10 @@
 
+FILE HANDLING
+
+LAB 13 QUESTIONS:
+
+1. Writing to a file by reading the input from the user(standard input).
+2. Reading from a file and printing the contents of the file to the standard output.
+3. Writing objects to a file. (Serialization)
+4. Reading the objects from a file.
+5. Exploring file handling classes, its methods and attributes.

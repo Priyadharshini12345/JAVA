@@ -1,1 +1,8 @@
 
+EXCEPTION HANDLING
+
+LAB10 QUESTIONS:
+
+1. Using Exception handling, implement a Java program that prints the maximum of the sequence of non negative integer values got input from the user.
+
+2. Write a method printIntegers() that reads integer values from user(stdin) and prints them to standard output. For those lines of the file that do not contain an integer value (e.g., they contain alphabetic characters) the program should print the string "***" and continue reading.

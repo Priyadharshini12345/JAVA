@@ -1,1 +1,43 @@
 
+CLASSES AND OBJECTS
+LAB03 QUESTIONS:
+
+1. Define a class called with data members : numerator(int) and denominator(int). The member methods are constructor with two arguments of type integer, default constructor in which always denominator is initialised with value 1, set and get methods, void display to print the details of the object Rational. Create a Test class to create objects of Rational and invoke the methods. Validate the input in the set methods. (5)
+
+2. Define a class called Employee with datamembers: empid(int), firstname(String), lastname(String), salary(double). The salary is initialised with value of 1000 while declaring. The member methods are:
+
+Employee()
+
+Employee (int id, String fn, String ln)
+
+setEmpid(int)
+
+setFirstName(String)
+
+setLastName(String)
+
+int getEmpid()
+
+String getFirstName()
+
+String getLastName( )
+
+double getSalary()
+
+void display() – call the get methods to print the instance fields using this reference
+
+String toString()
+
+Validate the inputs in set methods.
+
+Create a test class to create objects and test the methods.
+
+3. Define a class called Book with data members: title(String), authorName(String), year of publication(int) and price(double). The methods are: default constructor, constructor with four arguments, void display() that prints the details of Book object using Sytem.out.printf.
+
+Define a test class in which an array of Book Objects are created and the details of Book Object printed. The size of the array has to be obtained from the user.
+
+4. Define a method void increment(int val) for the class Rational that increments the numerator and denominator by the val. Print the details of Rational object before and after calling of increment. (2)
+
+5. Define a method double calculateBonus(double intRate) in class Employee that calculates the bonus (bonus = salary * intRate) when it is called by the object of Employee. 
+
+6. Define method Boolean checkDup(Book []) that checks whether duplicate details of book exist in the array of Book.

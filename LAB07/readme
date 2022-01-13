@@ -1,1 +1,69 @@
 
+ABSTRACT CLASSES AND METHODS
+
+LAB 07 QUESTIONS:
+
+1. Incllude the following changes to class Person given in Ex.no.6
+
+a. Make class Person as abstract class with protected data members, concrete method
+
+toString() and abstract method: void modifySalary() 
+
+b. Create called interface called CalculateBonus : 
+
+public inteface CalculateBonus {
+
+public static final double bonusRate = 0.25;
+
+public double bonus();
+
+}
+
+c. Inherit Employee class from class Person and override modifySalary() in which bonus()
+
+is invoked and the returned bonus is added to salary , implement inteface
+
+CalculateBonus and override bonus() 
+
+2. Define a Test class to create objects of Date, Person and Employee and invoke the methods.
+
+3. 1. Make the following modifications to class Employee: 
+
+a. implement interface IncomeTax:
+
+public interface IncomeTax{
+
+public static final double tax1 = 0.10;
+
+public static final double tax2 = 0.15;
+
+public double calculateTax();
+
+}
+
+For salary upto 10,000 applay tax1 and above 10,000 apply tax2 for calculating tax for
+
+each employees
+
+b. Implement interface comparable and override compareTo to compare the salary of
+
+Employee objects.
+
+c. Include method Employee[] sort(Employee []) that takes an array of Employee objects
+
+and returns an array of Employee objects sorted in descending order of salary using he
+
+compareTo()
+
+
+4. Create class called student with data members:rollno(int) and CGPA, the member functions are: constructor with args and toString()
+
+5. Make class Student extends class Course.and implements interface CgpaCal
+
+Public interface CgpaCal{
+
+Public calculateCgpa();
+
+}
+
+6. The calculateCgpa() should calculate CGPA for the array of course the student has enrolled and initialise the CGPA.

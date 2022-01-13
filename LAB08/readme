@@ -1,1 +1,36 @@
 
+LAB08 QUESTIONS:
+
+1. Define an abstract class called Vehicle with data members: enginenumber(int), model(String), make(String), costofvehicle(double) and amount(double).
+
+The member functions are:
+
+i. constructor with arguments where the members are initialized and the tollamount is intialised to amount 0 
+
+ii. set_tollamount(double)- that initializes the tollamount with value of the passed argument
+
+iii. toString() – to display the members of the class Vehicle 
+
+2. Derive a class called Truck that extends from Vehicle and implements interface TollBooth. Datamembers are: capacity (int), numwheels(int). The member functions are: 
+
+i. Constructor with arguments 
+
+ii. Override methods - toString() and deductAmount (double) 
+
+iii. int getAxles() – that returns the number of wheels 
+
+3. Derive a class called Car that extends from Vehicle and implements interface TollBooth. Datamembers are: noofseats (int) and mileage(float). The member functions are: 
+
+iv. Constructor with arguments 
+
+v. Override methods - toString() and deductAmount (double) 
+
+vi. int getMileage() – that returns the mileage 
+
+4. Define an interface called TollBooth with members: 
+
+constant data members: carToll(double)intialised to 30,truckToll(double) initialized to 75
+
+Static method – double deductAmount(Vehicle) that deducts from the amount based on the type of Vehicle
+
+5. Define a test class and create objects of Car and Truck and test the functionalities.

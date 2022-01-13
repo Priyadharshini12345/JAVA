@@ -1,1 +1,8 @@
 
+NETWORKING IN JAVA
+
+LAB14 QUESTIONS:
+
+1. Write a simple chat program through which client and server communicates.
+        i. Through TCP connection
+        ii. Through UDP connection

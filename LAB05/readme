@@ -1,1 +1,21 @@
+LAB05 QUESTIONS:
 
+ARRAY OF OBJECTS:
+
+1. Define a class called Account with data members: name(String), accountno(int), balance(double), type of account(String), static data intererest rate(float). the member functions are: default constructor, constructor with args, toString(), deposit(double)- increments the balance, withdraw(double)- decrements the balance, modifyInterestRate(float), double calInterest() – that calculates the interest got by the account holder per year.
+
+2. Define a class called Time: seconds(int), minutes(int),hours(int). the methods are: default constructor, constructor with args, toString(), display(int choice) – that will display the Time object as 24 hour or 12 hour clock based on the choice of user and increment(int val) increments the seconds by val which should subsequently increase the minutes and hours.
+
+3. Define class called Phonebook: name(String), category(String) – that indicates anyone of the following categories: friends, relatives, business/official, primary contact(int) and secondary contact(int). Member functions are: constructor with args, display(), bool search(String name) that finds the name in an array of Phonebook objects. int find() that calculates the total number of relatives names exist in the array of Phonebook objects.
+
+4. With respect to Account class: modify the following based on the type of account restrict the amount to be withdrawn.
+
+If savings type – amount to be withdrawn is rs,10,000
+
+Current type - amount to be withdrawn is rs,10,000
+
+Validate the amount to be withdrawn is always less than balance. Min balance to be maintained is 500. 
+
+5. In class Time: Validate the seconds, minutes and hours is in the range 0 to 59 while initializing in constructor. 
+
+6. In class Phonebook: Phonebook search(String name) that returns the object that matches with name searched in the array of Phonebook objects. Invoke display by the retuned object to print its details.

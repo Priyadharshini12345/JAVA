@@ -1,1 +1,30 @@
 
+QUESTIONS: LAB01
+
+1. You have just started a sales job in a department store. Your pay consists of a base salary and a commission. The base salary is Rs 5,000. The scheme shown below is used to determine the commission rate.
+
+Sales Amount Commission Rate
+
+Rs0.01–Rs.5,000 8 percent
+
+Rs.5,000.01–Rs.10,000 10 percent
+
+Rs.10,000.01 and above 12 percent
+
+Your goal is to earn Rs.30,000 a year. Write a program that finds out the minimum number of sales you have to generate in order to make Rs.30,000. (5)
+
+2. Write a program that the user has the chance to guess the number. The number is called as drawNumber, in the range 0 to 100 (both 0 and 100 are possible). The program should to print "The number is lesser", "The number is greater" or "Congratulations, your guess is correct!" depending on the number the user typed. The program should keep getting the input until the right guess is made.
+
+3. Create a program to calculate BMI that reads the user’s weight in kilograms and height in meters, then calculates and displays the user’s body mass index. Also, display the following information so the user can evaluate his/her BMI: (5)
+
+BMI VALUES
+
+Underweight: less than 18.5
+
+Normal: between 18.5 and 24.9
+
+Overweight: between 25 and 29.9
+
+Obese: 30 or greater
+
+4. 1. A positive integer is called a perfect number if it is equal to the sum of all of its positive divisors, excluding itself. For example, 6 is the first perfect number because 6 = 3 + 2 + 1. Write a Program to generate the perfect numbers within 10,000.

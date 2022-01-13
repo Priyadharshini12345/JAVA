@@ -1,1 +1,17 @@
+CLASSESS AND OBJECTS
 
+LAB04 QUESTIONS:
+
+1. Define class Course with members: courseName(String), courseInstructor(String), noofHours(int), noofCredits(int). The member functions are: default constructor, constructor with arguments, toString() to display the course details, get and set methods.
+
+Include static variable : noofStudentsEnrolled(int)
+
+Static method: void enroll(int n) will add up n students to the noofStudentsEnrolled
+
+Static method: void drop(int n) will reduce n students from the noofStudentsEnrolled
+
+In driver method create objects of Course and test all methods.
+
+2. Create class called Gradebook, create an array of Course, initialse and print the details of the Course. (2)
+
+3. Define class called TestBook with static method: Book search(Book [], String title) which will return the searched Book object if it exists in the array of Book objects. In the TestBook class, create an array of Book Objects and invoke the search method. The Book details returned from the search must be printed and if the returned object is null print the “ “Book with title _________ is not found”

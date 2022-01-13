@@ -1,1 +1,8 @@
 
+MULTITHREADING
+
+LAB12 QUESTIONS:
+
+1. Create a class called account with attributes like account number, name etc. Methods are withdraw(), deposit(), etc.. Create threads and perform simultaneous withdraw and deposit operations.
+
+2. Create a class called Queue with operations enqueue(), dequeue(). Create threads and perform simultaneous enqueue and dequeue operations.

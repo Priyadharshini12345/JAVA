@@ -1,1 +1,44 @@
+INHERITANCE
 
+LAB 06 QUESTIONS:
+
+1. Define a class called Date with members: day(int),month(int) and year(int). The member functions are: default constrructor, constructor with arguments and toString(). 
+
+2. Create a class called Person with private data members: name(String),dateofbirth(Date). The
+
+public methods are :default constrructor,
+
+constructor with four arguments – Person(String,int,int,int), (3)
+
+toString(), set and get methods.
+
+3. Define a class called Employee with public members: empid(int), salary(double) designation(String),set and get methods, default constrructor,
+
+constructor with arguments – Employee(String, Date, int, double, Sring)
+
+and toString()
+
+4. Define a Test class to create objects of Date, Person and Employee and invoke the methods.
+
+5. Make the following modifications to class Employee:
+
+a. include a static data field bonusRate = 0.05
+
+b. include double calculateBonus() that returns the bonus (bonus = bonusRate * salary)
+
+invoke the CalculateBonus in Test class
+
+6. Create a class called HourlyEmployee inherited from class Person with members: empid(int),
+
+number of hours(int) and wagesperhour(double). The member functions are :
+
+constructor with arguments, toString(),
+
+double CalSalary() - that calculates and returns the salary of the HourlyEmployee
+
+(salary = numberof days * wagesperhour)
+
+create objects of HourlyEmployee and invoke the methods in Test class
+
+
+7. Create an array of five Person in the Test class. Initialise the array with 3 objects of Employee and 2 objects of HourlyEmployee. Invoke the toString() for each element of the array of the Person.

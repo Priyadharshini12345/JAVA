@@ -1,1 +1,29 @@
+STRINGS, ARRAYS AND METHODS
 
+LAB02 QUESTIONS:
+
+1. In our University, student email addresses end with @student.annauniv.edu, while professor email addresses end with @prof.annauniv.edu. Write a program that first asks the user how many email addresses they will be entering, and enter those user given addresses in an array of String. The program should print out a message indicating the number of student addresses and professor addresses. 
+
+2. Write a static method given as:
+
+public static void palindromicPrime( int n)
+
+The method has to print the palindromic prime within the range of integer specified by the user, n.
+
+Example: 131, 313,757 are palindromic primes.
+
+3. Write a method equalTo to check whether the given two double values are equal and returns Boolean value.
+
+4. Overload the equalTo method to find whether the given two strings are anagrams.
+
+Two words are anagrams if they contain the same letters in any order. For example, silent and listen are anagrams 
+
+5. Define a static final String array FLAVOURS that consists of Ice cream flavours.
+
+static final String[] FLAVOURS = {‘"Chocolate", "Strawberry", "Vanilla Fudge Swirl", "Mint Chip", "Mocha Almond Fudge", "Mango", "Praline Cream", "Lichi"}
+
+Define a method called flavourSet
+
+public static String [] flavourSet (String flavor [])
+
+that takes the array of flavours and returns the user preferred flavours as an array in the decreasing order of preference.

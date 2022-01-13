@@ -6,9 +6,9 @@ LAB 06 QUESTIONS:
 
 2. Create a class called Person with private data members: name(String),dateofbirth(Date). The
 
-public methods are :default constrructor,
+public methods are :default constructor,
 
-constructor with four arguments – Person(String,int,int,int), (3)
+constructor with four arguments – Person(String,int,int,int)
 
 toString(), set and get methods.
 
